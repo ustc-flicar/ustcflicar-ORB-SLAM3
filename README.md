@@ -21,7 +21,7 @@ For Hikvision1 Camera and Xsens IMU:
 
 For Bumblebee-XB3-Center Camera and Xsens IMU:
   ```
-  rosrun ORB_SLAM3 Mono_Inertial YOUR_PROJECT_FOLDER/Vocabulary/ORBvoc.txt YOUR_PROJECT_FOLDER/yaml_ustcflicar/mono-inertial/xb3_c.yaml  [EQUALIZATION]	
+  rosrun ORB_SLAM3 Stereo_Inertial YOUR_PROJECT_FOLDER/Vocabulary/ORBvoc.txt YOUR_PROJECT_FOLDER/yaml_ustcflicar/mono-inertial/xb3_c.yaml  [EQUALIZATION]	
   rosbag play YOUR_DATASET_FOLDER/hf001.bag --topics "/camera/center/iamge_raw" "/imu/data" /camera/center/image_raw:=/rgb/image_raw /imu/data:=/imu
   ```
 
